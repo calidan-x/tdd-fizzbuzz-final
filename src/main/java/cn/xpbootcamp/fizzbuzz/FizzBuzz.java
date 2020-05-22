@@ -14,6 +14,10 @@ public class FizzBuzz {
             sayWord += "Whizz";
         }
 
+        if (sayWord.equals("")) {
+            sayWord = number + "";
+        }
+
         return sayWord;
     }
 }
